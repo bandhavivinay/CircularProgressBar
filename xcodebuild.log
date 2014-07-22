@@ -1,0 +1,6 @@
+=== BUILD TARGET CircularProgressBar OF PROJECT CircularProgressBar WITH THE DEFAULT CONFIGURATION (Release) ===
+
+Check dependencies
+Code Sign error: No matching provisioning profiles found: No provisioning profiles with a valid signing identity (i.e. certificate and private key pair) were found.
+CodeSign error: code signing is required for product type 'Application' in SDK 'iOS 8.0'
+

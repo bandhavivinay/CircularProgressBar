@@ -25,7 +25,7 @@
 {
     [super viewDidLoad];
     
-    
+    NSString *u = @"abc";
     //add path bezier path...
     
 //    pathView = [[PathView alloc] initWithFrame:CGRectMake(0, 0, 260+10, 260+10)];

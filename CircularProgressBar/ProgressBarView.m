@@ -39,6 +39,8 @@
         
         NSLog(@"radians is %f",DEGREES_TO_RADIANS(radians));
         
+        NSString *a = @"abs";
+        
         
 //        endAngle = startAngle + DEGREES_TO_RADIANS(360);
     }

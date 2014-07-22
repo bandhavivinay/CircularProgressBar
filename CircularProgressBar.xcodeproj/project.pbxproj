@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B13085D8197E62A300093A77 /* run-sonar.sh in Resources */ = {isa = PBXBuildFile; fileRef = B13085D7197E62A300093A77 /* run-sonar.sh */; };
+		B13085DA197E62C100093A77 /* sonar-project.properties in Resources */ = {isa = PBXBuildFile; fileRef = B13085D9197E62C100093A77 /* sonar-project.properties */; };
 		B16E6098183E08910037A9D9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E6097183E08910037A9D9 /* QuartzCore.framework */; };
 		B1740CC7183F76A40064A623 /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1740CC6183F76A40064A623 /* PathView.m */; };
 		B1FDC97A183CE56400C96B20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FDC979183CE56400C96B20 /* UIKit.framework */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B13085D7197E62A300093A77 /* run-sonar.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "run-sonar.sh"; sourceTree = "<group>"; };
+		B13085D9197E62C100093A77 /* sonar-project.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; };
 		B16E6097183E08910037A9D9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B1740CC5183F76A40064A623 /* PathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
 		B1740CC6183F76A40064A623 /* PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 		B1FDC96D183CE56400C96B20 = {
 			isa = PBXGroup;
 			children = (
+				B13085D9197E62C100093A77 /* sonar-project.properties */,
+				B13085D7197E62A300093A77 /* run-sonar.sh */,
 				B1FDC97F183CE56400C96B20 /* CircularProgressBar */,
 				B1FDC978183CE56400C96B20 /* Frameworks */,
 				B1FDC977183CE56400C96B20 /* Products */,
@@ -173,9 +179,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1FDC984183CE56400C96B20 /* InfoPlist.strings in Resources */,
+				B13085DA197E62C100093A77 /* sonar-project.properties in Resources */,
 				B1FDC98C183CE56500C96B20 /* Default.png in Resources */,
 				B1FDC98E183CE56500C96B20 /* Default@2x.png in Resources */,
 				B1FDC990183CE56500C96B20 /* Default-568h@2x.png in Resources */,
+				B13085D8197E62A300093A77 /* run-sonar.sh in Resources */,
 				B1FDC996183CE56500C96B20 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
